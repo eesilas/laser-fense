@@ -4,7 +4,7 @@ basic.showIcon(IconNames.SmallHeart)
 basic.forever(function () {
     resistor = 0
     if (pins.analogReadPin(AnalogReadWritePin.P0) != 255) {
-        resistor = pins.analogReadPin(AnalogReadWritePin.P0)
+        resistor = pins.analogReadPin(AnalogReadWritePin.P2)
         microIoT.microIoT_showUserNumber(4, resistor)
     }
     if (resistor > 400) {
