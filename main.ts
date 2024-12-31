@@ -12,6 +12,6 @@ basic.forever(function () {
     } else if (resistor > 250) {
         microIoT.microIoT_setIndexColor(PIN.P15, 0, 1, 0xff8000)
     } else {
-        microIoT.microIoT_setIndexColor(PIN.P15, 0, 2, 0x7f00ff)
+        microIoT.microIoT_setIndexColor(PIN.P15, 0, 2, 0xff0080)
     }
 })
